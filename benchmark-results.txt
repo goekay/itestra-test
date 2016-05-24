@@ -1,0 +1,163 @@
+# JMH 1.12 (released 53 days ago)
+# VM version: JDK 1.8.0_92, VM 25.92-b14
+# VM invoker: /Library/Java/JavaVirtualMachines/jdk1.8.0_92.jdk/Contents/Home/jre/bin/java
+# VM options: <none>
+# Warmup: 5 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.goekay.RunBenchmark.itestraDayOfYear1
+
+# Run progress: 0,00% complete, ETA 00:00:50
+# Fork: 1 of 1
+# Warmup Iteration   1: 0,029 ms/op
+# Warmup Iteration   2: 0,029 ms/op
+# Warmup Iteration   3: 0,029 ms/op
+# Warmup Iteration   4: 0,028 ms/op
+# Warmup Iteration   5: 0,028 ms/op
+Iteration   1: 0,029 ms/op
+Iteration   2: 0,029 ms/op
+Iteration   3: 0,028 ms/op
+Iteration   4: 0,029 ms/op
+Iteration   5: 0,029 ms/op
+
+
+Result "itestraDayOfYear1":
+  0,029 ±(99.9%) 0,002 ms/op [Average]
+  (min, avg, max) = (0,028, 0,029, 0,029), stdev = 0,001
+  CI (99.9%): [0,027, 0,031] (assumes normal distribution)
+
+
+# JMH 1.12 (released 53 days ago)
+# VM version: JDK 1.8.0_92, VM 25.92-b14
+# VM invoker: /Library/Java/JavaVirtualMachines/jdk1.8.0_92.jdk/Contents/Home/jre/bin/java
+# VM options: <none>
+# Warmup: 5 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.goekay.RunBenchmark.itestraDayOfYear2
+
+# Run progress: 20,00% complete, ETA 00:00:41
+# Fork: 1 of 1
+# Warmup Iteration   1: 4,403 ms/op
+# Warmup Iteration   2: 3,792 ms/op
+# Warmup Iteration   3: 3,416 ms/op
+# Warmup Iteration   4: 3,407 ms/op
+# Warmup Iteration   5: 3,365 ms/op
+Iteration   1: 3,259 ms/op
+Iteration   2: 3,305 ms/op
+Iteration   3: 3,536 ms/op
+Iteration   4: 3,337 ms/op
+Iteration   5: 3,276 ms/op
+
+
+Result "itestraDayOfYear2":
+  3,343 ±(99.9%) 0,431 ms/op [Average]
+  (min, avg, max) = (3,259, 3,343, 3,536), stdev = 0,112
+  CI (99.9%): [2,911, 3,774] (assumes normal distribution)
+
+
+# JMH 1.12 (released 53 days ago)
+# VM version: JDK 1.8.0_92, VM 25.92-b14
+# VM invoker: /Library/Java/JavaVirtualMachines/jdk1.8.0_92.jdk/Contents/Home/jre/bin/java
+# VM options: <none>
+# Warmup: 5 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.goekay.RunBenchmark.itestraDayOfYear3
+
+# Run progress: 40,00% complete, ETA 00:00:31
+# Fork: 1 of 1
+# Warmup Iteration   1: 1,027 ms/op
+# Warmup Iteration   2: 0,836 ms/op
+# Warmup Iteration   3: 0,592 ms/op
+# Warmup Iteration   4: 0,588 ms/op
+# Warmup Iteration   5: 0,584 ms/op
+Iteration   1: 0,582 ms/op
+Iteration   2: 0,607 ms/op
+Iteration   3: 0,595 ms/op
+Iteration   4: 0,607 ms/op
+Iteration   5: 0,588 ms/op
+
+
+Result "itestraDayOfYear3":
+  0,596 ±(99.9%) 0,043 ms/op [Average]
+  (min, avg, max) = (0,582, 0,596, 0,607), stdev = 0,011
+  CI (99.9%): [0,553, 0,638] (assumes normal distribution)
+
+
+# JMH 1.12 (released 53 days ago)
+# VM version: JDK 1.8.0_92, VM 25.92-b14
+# VM invoker: /Library/Java/JavaVirtualMachines/jdk1.8.0_92.jdk/Contents/Home/jre/bin/java
+# VM options: <none>
+# Warmup: 5 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.goekay.RunBenchmark.rwthDayOfYear4
+
+# Run progress: 60,00% complete, ETA 00:00:20
+# Fork: 1 of 1
+# Warmup Iteration   1: 0,155 ms/op
+# Warmup Iteration   2: 0,146 ms/op
+# Warmup Iteration   3: 0,149 ms/op
+# Warmup Iteration   4: 0,146 ms/op
+# Warmup Iteration   5: 0,146 ms/op
+Iteration   1: 0,147 ms/op
+Iteration   2: 0,145 ms/op
+Iteration   3: 0,148 ms/op
+Iteration   4: 0,146 ms/op
+Iteration   5: 0,145 ms/op
+
+
+Result "rwthDayOfYear4":
+  0,146 ±(99.9%) 0,005 ms/op [Average]
+  (min, avg, max) = (0,145, 0,146, 0,148), stdev = 0,001
+  CI (99.9%): [0,141, 0,151] (assumes normal distribution)
+
+
+# JMH 1.12 (released 53 days ago)
+# VM version: JDK 1.8.0_92, VM 25.92-b14
+# VM invoker: /Library/Java/JavaVirtualMachines/jdk1.8.0_92.jdk/Contents/Home/jre/bin/java
+# VM options: <none>
+# Warmup: 5 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.goekay.RunBenchmark.rwthDayOfYear5
+
+# Run progress: 80,00% complete, ETA 00:00:10
+# Fork: 1 of 1
+# Warmup Iteration   1: 0,066 ms/op
+# Warmup Iteration   2: 0,065 ms/op
+# Warmup Iteration   3: 0,064 ms/op
+# Warmup Iteration   4: 0,065 ms/op
+# Warmup Iteration   5: 0,065 ms/op
+Iteration   1: 0,065 ms/op
+Iteration   2: 0,065 ms/op
+Iteration   3: 0,073 ms/op
+Iteration   4: 0,070 ms/op
+Iteration   5: 0,069 ms/op
+
+
+Result "rwthDayOfYear5":
+  0,068 ±(99.9%) 0,013 ms/op [Average]
+  (min, avg, max) = (0,065, 0,068, 0,073), stdev = 0,003
+  CI (99.9%): [0,055, 0,081] (assumes normal distribution)
+
+
+# Run complete. Total time: 00:00:52
+
+Benchmark                       Mode  Cnt  Score   Error  Units
+RunBenchmark.itestraDayOfYear1  avgt    5  0,029 ± 0,002  ms/op
+RunBenchmark.itestraDayOfYear2  avgt    5  3,343 ± 0,431  ms/op
+RunBenchmark.itestraDayOfYear3  avgt    5  0,596 ± 0,043  ms/op
+RunBenchmark.rwthDayOfYear4     avgt    5  0,146 ± 0,005  ms/op
+RunBenchmark.rwthDayOfYear5     avgt    5  0,068 ± 0,013  ms/op
