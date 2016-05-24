@@ -5,10 +5,9 @@
 
 # How to run?
 
-    ```
     mvn clean package
     java -jar target/itestra-test.jar
-    ```
+    
 
 # Benchmark
 
